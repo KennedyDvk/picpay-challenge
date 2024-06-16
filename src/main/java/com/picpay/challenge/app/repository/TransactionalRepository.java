@@ -1,0 +1,7 @@
+package com.picpay.challenge.app.repository;
+
+import com.picpay.challenge.app.domain.transaction.Transaction;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TransactionalRepository extends JpaRepository<Transaction, Long> {
+}
